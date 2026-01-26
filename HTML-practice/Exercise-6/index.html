@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <div>
+            <label for="username">Enter your user name : </label>
+            <input type="text" id="username" name="username" placeholder="User Name..." required autofocus pattern="[a-zA-Z0-9]{4,12}">
+        </div>
+        <div>
+            <label for="passward">Enter your passward : </label>
+            <input type="passward" id="passward" name="passward" placeholder="Passward..." required>
+        </div>
+        <!-- radio buttons -->
+        <div>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+        </div>
+        <!-- Check box -->
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Are you happy!!!</label>
+        </div>
+        <div>
+            <input type="color" id="color" name="color" value="color">
+            <label for="color">Select a color</label>
+        </div>
+        <div>
+            <label for="comment">Enter your comment<br></label>
+            <textarea name="comment" id="comment" rows="4" cols="30"></textarea>
+        </div>
+        <div>
+            <select name="fruits" id="fruits">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="mango">Mango</option>
+            </select>
+        </div>
+        <div>
+            <input type="reset">
+        </div>
+        <div>
+            <input type="Submit">
+        </div>
+    </form>
+</body>
+</html>
