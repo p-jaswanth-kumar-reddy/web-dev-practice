@@ -1,0 +1,21 @@
+/* Universal Selector  */
+*{
+    padding: 0;
+    margin: 0;
+}
+/* class selector  */
+.para{
+    color: aqua;
+}
+/* id selector  */
+#myid{
+    color: rgb(10, 216, 31);
+}
+/* element selector  */
+h5{
+    color: brown;
+}
+/* group selector  */
+h3 ,h5 ,.para,#myid{
+    text-align: center;
+}
