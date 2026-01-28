@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: red;
+}
+.container{
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.box{
+    background-color: purple;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+body{
+    /* padding: 10px 50px 0px 50px; */
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    /* margin: 10px 50px 0px 50px; */
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+
+
