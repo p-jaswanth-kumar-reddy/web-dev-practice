@@ -1,0 +1,37 @@
+body {
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      font-size: 36px;
+      font-style: italic;
+      font-weight: bold;
+      font-variant: small-caps;
+      text-align: center;
+      text-transform: uppercase;
+      text-decoration: underline;
+      text-decoration-color: red;
+      text-decoration-style: dashed;
+      text-shadow: 2px 2px 4px gray;
+    }
+
+    p {
+      font-size: 18px;
+      color: #333;
+      line-height: 1.8;
+      text-align: justify;
+      text-indent: 50px;
+      letter-spacing: 1px;
+      word-spacing: 5px;
+      white-space: normal;
+      direction: ltr;
+      overflow-wrap: break-word;
+    }
+
+    .short {
+      width: 200px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      border: 1px solid black;
+    }
