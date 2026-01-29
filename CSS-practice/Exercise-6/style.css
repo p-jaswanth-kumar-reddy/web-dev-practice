@@ -1,0 +1,36 @@
+ /* List properties */
+    ul {
+      list-style-type: square;
+      list-style-position: inside;
+      margin: 20px;
+      padding: 10px;
+    }
+
+    ol {
+      list-style-type: upper-roman;
+      margin-left: 40px;
+    }
+
+    li {
+      font-size: 18px;
+      margin: 5px 0;
+    }
+
+    /* Image properties with filters */
+    img {
+      width: 250px;
+      height: 180px;
+      border: 3px solid black;
+      border-radius: 12px;
+      margin: 20px;
+      object-fit: cover;
+      filter: grayscale(50%) brightness(110%) contrast(120%);
+    }
+
+    /* Video styling */
+    video {
+      width: 400px;
+      border: 3px solid black;
+      border-radius: 10px;
+      margin: 20px;
+    }
