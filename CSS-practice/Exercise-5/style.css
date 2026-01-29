@@ -1,0 +1,40 @@
+/* Link states */
+    a:link {
+      color: blue;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: purple;
+    }
+
+    a:hover {
+      color: red;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    a:active {
+      color: green;
+    }
+
+    /* Cursor examples */
+    .pointer {
+      cursor: pointer;
+    }
+
+    .wait {
+      cursor: wait;
+    }
+
+    .crosshair {
+      cursor: crosshair;
+    }
+
+    .move {
+      cursor: move;
+    }
+
+    .text {
+      cursor: text;
+    }
