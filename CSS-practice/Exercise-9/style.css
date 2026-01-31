@@ -1,25 +1,27 @@
 /* Global variables */
-    :root {
-      --primary-color: steelblue;
-      --box-size: 300px;
-      --text-size: 16px;
-    }
+:root {
+  --primary-color: steelblue;
+  --box-size: 300px;
+  --text-size: 16px;
+}
 
-    /* Default box */
-    .box {
-      width: max(250px, 40%);
-      height: min(200px, 30vh);
-      background-color: var(--primary-color);
-      font-size: clamp(14px, 2vw, 22px);
-      color: white;
-      padding: 15px;
-      margin: 20px;
-    }
+/* Default box */
+.box {
+  width: max(250px, 40%);
+  height: min(200px, 30vh);
+  background-color: var(--primary-color);
+  font-size: clamp(14px, 2vw, 22px);
+  color: white;
+  padding: 15px;
+  margin: 20px;
+}
 
-    /* Modifying variables */
-    .box-modified {
-      --primary-color: tomato;      /* variable modified */
-      --text-size: 20px;             /* variable modified */
-      background-color: var(--primary-color);
-      font-size: var(--text-size);
-    }
+/* Modifying variables */
+.box-modified {
+  --primary-color: tomato;
+  /* variable modified */
+  --text-size: 20px;
+  /* variable modified */
+  background-color: var(--primary-color);
+  font-size: var(--text-size);
+}
