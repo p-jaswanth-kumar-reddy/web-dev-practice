@@ -1,0 +1,78 @@
+/* Container */
+    .container {
+      position: relative;
+      width: 80%;
+      height: 300px;
+      border: 2px solid black;
+      margin: 20px auto;
+    }
+
+    /* Positioning examples */
+    .static {
+      position: static;
+      background-color: lightgray;
+      padding: 10px;
+    }
+
+    .relative {
+      position: relative;
+      top: 10px;
+      left: 20px;
+      background-color: lightblue;
+      padding: 10px;
+    }
+
+    .absolute {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-color: lightgreen;
+      padding: 10px;
+    }
+
+    .fixed {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      background-color: orange;
+      padding: 10px;
+    }
+
+    .sticky {
+      position: sticky;
+      top: 0;
+      background-color: pink;
+      padding: 10px;
+    }
+
+    /* Units examples */
+    .units {
+      margin-top: 20px;
+      padding: 1em;
+      font-size: 16px;
+    }
+
+    .px {
+      font-size: 18px;
+    }
+
+    .em {
+      font-size: 1.5em;
+    }
+
+    .rem {
+      font-size: 1.5rem;
+    }
+
+    .percent {
+      width: 50%;
+      background-color: #ddd;
+      padding: 10px;
+    }
+
+    .vwvh {
+      width: 30vw;
+      height: 10vh;
+      background-color: lightcoral;
+      margin-top: 10px;
+    }
