@@ -1,0 +1,33 @@
+/* Navbar container */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+/* Navigation list */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* List items */
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+/* Links */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
