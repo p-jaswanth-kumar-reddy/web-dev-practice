@@ -1,0 +1,46 @@
+/* Navbar container */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+/* Navigation list */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* List items */
+nav ul li {
+    margin: 0 15px;
+}
+
+/* Links */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    display: block;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Media Query */
+@media screen and (max-width: 320px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 8px 0;
+    }
+}
