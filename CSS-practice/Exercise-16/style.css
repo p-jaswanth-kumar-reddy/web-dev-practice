@@ -1,0 +1,27 @@
+/* Common box style */
+    .box {
+      width: 260px;
+      height: 120px;
+      margin: 20px 0;
+      color: white;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* 1. Linear Gradient */
+    .linear {
+      background: linear-gradient(to right, red, orange, yellow);
+    }
+
+    /* 2. Radial Gradient */
+    .radial {
+      background: radial-gradient(circle, blue, lightblue, white);
+      color: black;
+    }
+
+    /* 3. Conic Gradient */
+    .conic {
+      background: conic-gradient(red, yellow, green, blue, red);
+    }
