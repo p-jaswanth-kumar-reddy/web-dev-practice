@@ -1,0 +1,37 @@
+.container {
+				position: relative;
+				height: 80vh;
+				width: 80vw;
+				background-color: blue;
+			}
+
+			.ball {
+				width: 80px;
+				height: 80px;
+				background-color: red;
+				border-radius: 50%;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				animation:
+					moveRight 5s linear infinite alternate,
+					bounceVertical 0.8s ease-in infinite alternate;
+			}
+
+			@keyframes moveRight {
+				from {
+					left: 0%;
+				}
+				to {
+					left: calc(100% - 80px);
+				}
+			}
+
+			@keyframes bounceVertical {
+				from {
+					top: 0%;
+				}
+				to {
+					top: calc(100% - 80px);
+				}
+			}
