@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Shadow, Outline and Image Border</title>
+
+  <style>
+    /* 1. TEXT SHADOW */
+    .text-shadow {
+      font-size: 32px;
+      color: black;
+      text-shadow: 
+        2px 2px 5px gray,
+        -2px -2px 5px lightblue;
+    }
+
+    /* 2. BOX SHADOW */
+    .box-shadow {
+      width: 260px;
+      padding: 20px;
+      margin-top: 20px;
+      background-color: #e3f2fd;
+      box-shadow:
+        5px 5px 10px gray,
+        inset 2px 2px 6px rgba(0,0,0,0.3);
+    }
+
+    /* 3. OUTLINE */
+    .outline-box {
+      width: 260px;
+      padding: 20px;
+      margin-top: 20px;
+      outline-width: 4px;
+      outline-style: dashed;
+      outline-color: orange;
+      outline-offset: 4px;
+    }
+
+    /* 4. IMAGE BORDER */
+    .image-border {
+      width: 260px;
+      margin-top: 20px;
+
+      border-width: 4px;
+      border-style: solid;
+      border-color: steelblue;
+      border-radius: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2 class="text-shadow">Text Shadow Example</h2>
+
+  <div class="box-shadow">
+    Box Shadow Example
+  </div>
+
+  <div class="outline-box">
+    Outline Example
+  </div>
+
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBDgMCcJKNNHPZJMsw8SDj17aPksRKGf5Sg4efl_MxTGrHjSbSdZpS4DoOreCsZOI5_pU&usqp=CAU" alt="Image Border Example" class="image-border">
+
+</body>
+</html>
